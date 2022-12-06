@@ -1,0 +1,892 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+  }
+}
+
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.action-bar .info {
+  width: 100%;
+  color: #fff;
+  flex: 1 !important;
+  text-align: center;
+}
+
+.carousel>.thumb .selected {
+  display: none !important;
+}
+
+.boxstyle1 {
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.boxstyle2 {
+  /* height: 60px; */
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgb(200, 200, 201);
+}
+
+.showdow {
+
+  /* background-color: #fff; */
+  box-shadow: 0px 1px 5px rgb(200, 200, 201);
+}
+
+.boxstyle3 {
+  height: 80px;
+
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5px;
+  padding-top: 20px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgb(200, 200, 201);
+
+}
+
+.BoxCPN {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: rgb(53, 84, 120);
+  background: linear-gradient(90deg,
+      rgba(53, 84, 120, 1) 0%,
+      rgba(48, 78, 110, 1) 20%,
+      rgba(31, 51, 71, 1) 100%);
+  box-shadow: 5px 2px 10px rgb(22, 22, 22);
+  justify-content: space-between;
+}
+
+.divrowgreen {
+  padding: 0px 20px 0px 0px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  color: rgb(46, 172, 94);
+}
+
+.divrowred {
+  padding: 0px 20px 0px 0px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  color: rgb(172, 61, 46);
+}
+
+.divrowgreen-2 {
+  padding: 0px 20px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: rgb(46, 172, 94);
+}
+
+.divrowred-2 {
+  padding: 0px 20px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: rgb(172, 61, 46);
+}
+
+.textgreen {
+  font-size: 13px;
+  text-align: center;
+  color: rgb(108, 212, 82);
+}
+
+
+.textBalance {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  color: rgb(246, 247, 248);
+}
+
+
+.boxbetween {
+  /* padding: 5px 0px 10px 0px; */
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+.boxstyle4 {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid rgb(194, 194, 194);
+  padding: 0px;
+  border-radius: 25px;
+  color: rgb(51, 88, 143);
+  font-weight: 450;
+}
+
+.boxstyle5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+  color: rgb(149, 151, 153);
+}
+
+
+.paddingstyle {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.popular-img {
+  height: 130px;
+  width: 140px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: .7rem;
+}
+
+
+.textleft {
+  font-weight: bold;
+
+  text-align: left;
+
+}
+
+.textleft2 {
+  color: rgb(134, 134, 134);
+  font-size: 12px;
+  text-align: left;
+
+}
+
+boxkeepright {
+  text-align: right;
+}
+
+.textright {
+
+  padding-left: 10px;
+  text-align: right;
+}
+
+.textblue {
+
+  color: rgb(51, 88, 143);
+}
+
+.textblueh3 {
+  font-size: 18px;
+  color: rgb(51, 88, 143);
+}
+
+.textblueh1 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 25px;
+  color: rgb(51, 88, 143);
+}
+
+
+.textgrey {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(101, 159, 216);
+  padding-bottom: 20px;
+}
+
+.popular-img {
+  height: 130px;
+  width: 140px;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: .7rem;
+}
+
+
+.carousel .slide {
+  padding: 8px !important;
+  /* min-width: 90% !important; */
+  padding-bottom: 32px !important;
+}
+
+.carousel .control-dots .dot {
+  background: #729ec0 !important;
+  box-shadow: none !important;
+}
+
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+
+  padding: 0px 0px 0px 20px;
+  height: 30px !important;
+
+}
+
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.iconWhite {
+  color: white;
+}
+
+.iconblack {
+  color: black;
+}
+
+.iconbule {
+  color: rgb(51, 88, 143);
+}
+
+.iconbule2 {
+
+  color: rgb(12, 28, 51);
+}
+
+
+
+.boxspace {
+  padding: 5px 0px 5px 0px;
+}
+
+.CPNcolor {
+  height: 300px;
+
+  background: rgb(53, 84, 120);
+  background: linear-gradient(90deg,
+      rgba(53, 84, 120, 1) 0%,
+      rgba(48, 78, 110, 1) 20%,
+      rgba(31, 51, 71, 1) 100%);
+}
+
+.textgrey2 {
+  font-size: 10px;
+  color: rgb(218, 214, 214);
+  text-shadow: 0px 1px 10px rgb(54, 54, 54);
+}
+
+.textgrey3 {
+  padding-bottom: 15px;
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+
+}
+
+.textgrey5 {
+
+  font-size: 15px;
+  color: rgb(173, 173, 173);
+
+}
+
+.row {
+  display: flex;
+}
+
+.ctnCenter {
+  padding: 20px;
+  display: flex;
+  justify-self: center;
+}
+
+.ctnCenter2 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-self: center;
+}
+
+.box1 {
+  padding: 20px;
+}
+
+.text1 {
+  padding: 10px;
+}
+
+.text2 {
+  padding: 10px;
+}
+
+.button {
+  position: relative;
+  background-color: #4182fc;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.setText {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-container-2 {
+  /* height: 670px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.flex-container-row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
+}
+.flex-container-row-4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+.flex-container-row-5 {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+
+}
+.flex-container-Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-container-Column2 {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 685px;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgb(200, 200, 201);
+}
+
+.flex-container-Column3 {
+  width: 382px; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.centerLine{
+  align-items: center;
+}
+.flex-container-Column4 {
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 246px;
+}
+.flex-container-Column5 {
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.fcC-6{
+ border-right: 2px solid rgb(233, 232, 232)
+}
+.fcC-7{
+  
+  border-right: 2px solid rgb(83, 81, 81)
+ }
+ 
+
+.flex-container-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(197, 197, 197);
+
+}
+.flex-container-center-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(197, 197, 197);
+  
+
+}
+.flex-container-center-3 {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  color: rgb(255, 255, 255);
+
+}
+.comtainer-wrap {
+  flex-wrap: wrap;
+}
+
+.comtainer-image {
+  display: flex;
+  width: 380px;
+  height: 285px;
+}
+
+.Boxbenz {
+  padding-left: 90px;
+  padding-right: 90px;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  /* background: linear-gradient(90deg,
+      rgba(53, 84, 120, 1) 0%,
+      rgba(48, 78, 110, 1) 20%,
+      rgba(31, 51, 71, 1) 100%);
+  box-shadow: 5px 2px 10px rgb(22, 22, 22);
+  justify-content: space-between; */
+}
+
+.Boxbenz-2 {
+  padding-left: 100px;
+  display: flex;
+  height: 60px;
+  justify-content: start;
+  background: rgb(0, 0, 0);
+  /* background: linear-gradient(90deg,
+      rgba(53, 84, 120, 1) 0%,
+      rgba(48, 78, 110, 1) 20%,
+      rgba(31, 51, 71, 1) 100%);
+  box-shadow: 5px 2px 10px rgb(22, 22, 22);
+  justify-content: space-between; */
+}
+
+.Boxbenz-3 {
+  padding-left: 100px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  /* background: linear-gradient(90deg,
+      rgba(53, 84, 120, 1) 0%,
+      rgba(48, 78, 110, 1) 20%,
+      rgba(31, 51, 71, 1) 100%);
+  box-shadow: 5px 2px 10px rgb(22, 22, 22);
+  justify-content: space-between; */
+}
+
+.Boxbenz-4 {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+}
+
+.Boxbenz-5 {
+  /* padding-left: 100px; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: rgb(0, 0, 0);
+
+}
+
+
+.flex-items-1 {
+  padding-bottom: 20px;
+  color: rgb(51, 88, 143);
+}
+
+.flex-items-2 {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.flex-items-3 {
+  /* padding-right: 5px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(197, 197, 197);
+}
+
+.flex-items-4 {
+  padding-right: 25px;
+  color: rgb(197, 197, 197);
+}
+
+
+.flex-items-5 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 15px;
+  font-size:20px;
+  color: rgb(197, 197, 197);
+}
+
+
+.flex-items-smaill {
+  padding-right: 5px;
+  color: rgb(197, 197, 197);
+}
+
+.image5 {
+  height: 500px;
+  background-image: url('/public/benz.jpg');
+
+}
+
+.bg-image {
+  width: 100%;
+  background-image: url('https://www.mercedes-benz.co.th/content/thailand/th/passengercars/_jcr_content/root/responsivegrid/simple_stage.component.damq6.3339432745906.jpg/Expo_Oneweb_Desktop_2050x1151.jpg');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-s1 {
+  display: flex;
+  width: 380px;
+  height: 285px;
+  background-image: url('https://www.mercedes-benz.co.th/content/thailand/th/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_2_584584793.component.damq6.3339504161075.jpg/avatar-simple-teaser.jpg');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-s2 {
+  display: flex;
+  width: 380px;
+  height: 285px;
+  background-image: url('https://www.mercedes-benz.co.th/content/thailand/th/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_1543179009.component.damq6.3337351687251.jpg/The_C-class_Simple_teaser_1534x1151.jpg');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-s3 {
+  display: flex;
+  width: 380px;
+  height: 285px;
+  background-image: url('https://www.mercedes-benz.co.th/content/thailand/th/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_1_854247869.component.damq6.3335953162626.jpg/OneWeb-Simple-teaser.jpg');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-s4 {
+  display: flex;
+  width: 380px;
+  height: 285px;
+  background-image: url('https://www.mercedes-benz.co.th/content/thailand/th/passengercars/_jcr_content/root/responsivegrid/simple_teaser_115569/simple_teaser_item_1_2035232394.component.damq6.3332351519645.jpg/220913_P11335_TH_Showcasing_innovation_2_Oneweb_Simple_1534x1151_V1R0.jpg');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-s5 {
+  display: flex;
+  width: 300px;
+  height: 180px;
+  background-image: url('https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXq0YFqtyO67PobzIr3eWsrrCsdRRzwQZgk4ZbMw3SGtlaStsd2HVcUfpOyXGEjGwJ0lVHlOB2qM%25bApR7oI5uG5IQC30h3kzNHTnm7j871hKVi0W%25vq4yTyLRgY2YaxPJSrH1ec1n8w0hyoiZB%25pM4FAy2Tg95b96PDak6SeWHeutsd8YdcUfiMWXGE4JYJ0lgChOB2zM%25bAp7oMIkbX1Zxq1Tg9Ukm6tTuweSc6MSItsdHhDcUfarRXGEsamJ0lUHrOB2GMObAp0MqI5u9LGQC3zgFkzN7PKm7sDgubYwR9hDv%25ev%25gj6hVNpLLxdYfqJVf%25XEd9B96N683eUHpi3v1LfIVf&imgt=P27&bkgnd=9&pov=BE140&uni=c&im=Crop,rect=(-50,-25,1370,770),gravity=Center;Resize,width=300');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-s6 {
+  display: flex;
+  width: 300px;
+  height: 180px;
+  background-image: url('https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqNEFqtyO35PobzIExXrItvsTQKkojUfGoo7GE11KFm9nRi9Q6FjcBXBXuXGEA53J0lFINOB29MjbApDdVI5uWcqQC3qCQkzNRzum7jxGDhKV1Yt%25vqwJjyLRZ3yYaxFN9rH19mdn8wDh2oiZWMgM4FdTjTg9fU96PDpkbSeWueutsd3JVcUfNrkXGEjnRJ0lVDtOB2qWFbApUnRI5uG4MQC30srkzNBUZm7jAyZhKV5bE%25vq4t9yLRgLFYaxPoYrH1entn8wYOxoiZr7XM4FnKFTg9oxZ6PDMrqSeWznMtsd8h3cUfiryXGE4TwJ0ldHZOB2fMqbAp7nlI5uKfIQC3vT6khQOZ9wxZSeW0h%25tXSNFUcJt6c6XGEHnxJ0lUIlOB2GQnbApFnyI5u9fzQC3DqKkzN7Pbm7jKcShKVvpQ%25vGdeNQnF1WydGwUaqLqtyRV3HHwEnlxbRlYO2EW5WtVt4jU0i3gjaZHlkRl&imgt=P27&bkgnd=9&pov=BE140&uni=c&im=Crop,rect=(-50,-25,1370,770),gravity=Center;Resize,width=300');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-image-s7 {
+  display: flex;
+  width: 300px;
+  height: 180px;
+  background-image: url('https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqaWFqtyO67PobzIr3eWsrrCsdRRzwQZUnRZbMw3SGtle9tsd2HdcUfp8qXGEubmJ0l3ItOB2NQnbApjtwI5uVQDQC31MjkzNwzwm7jZeohKVFXM%25vqCuqyLRgcDYaxPa9rH1endn8wso3oiZr7XM4FAsFTg9LQn6PDa1FSeWHtItsd8c%25cUfiAkXGE45EJ0lgCZOB2znobQOcxwRVxM4FsQkTSMp1P6tTo6bSeWayutsdLHocUfeUfXGEsGRJ0lwOAOB2ABcbAp5iXI5uC4ZQCPFi2J%25xVZkF7pQ6Zi3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&imgt=P27&bkgnd=9&pov=BE140&uni=c&im=Crop,rect=(-50,-25,1370,770),gravity=Center;Resize,width=300');
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.set-text-car {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  height: 48px;
+}
+
+.set-text-car-2 {
+  color: rgb(131, 131, 131);
+  font-family: var(--wb-font-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 2px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.set-text-car-3 {
+  color: rgb(131, 131, 131);
+  font-family: var(--wb-font-text);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  text-align: start;
+}
+
+
+
+
+.bt-car {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 50px;
+  justify-content: center;
+
+}
+
+.bt-catagry {
+
+  align-items: center;
+  background: var(--wb-white);
+  border: 1px solid var(--wb-grey-70);
+  border-right: 0;
+  color: var(--wb-grey-15);
+  cursor: pointer;
+  display: flex;
+  font-family: var(--wb-font-text-bold);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 500;
+  height: 100%;
+  justify-content: center;
+  line-height: 28px;
+  margin: 0;
+  padding: 12px 20px;
+  position: relative;
+  scroll-snap-align: start;
+  transition: color .2s ease-in-out;
+  white-space: nowrap;
+  z-index: 15;
+}
+
+.dh-io-vmos_27sk7 {
+  background: var(--wb-white);
+  color: var(--wb-grey-20);
+}
+
+.titer-text {
+  font-size: 3.5rem;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.titer-text-2 {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.titer-text-3 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.bt-catagry-2 {
+  color: #ccc;
+}
+
+.lines{
+  display: flex;
+  width: 100%;
+  height: 1px;
+  background-color:#ccc
+}
+
+.boxstyle6{
+  
+  padding: 24px 16px;
+  border: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #ccc;
+
+}
+
+.text-boxstyle6{
+  font: inherit;
+  font-family: var(--wb-font-text-bold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+
+.search {
+  border: 0px solid #030303;
+  width: 600;
+  position: relative;
+  display: flex;
+  
+}
+
+.searchTerm {
+  width: 100%;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #0f693f;
+}
+
+.searchTerm:focus{
+  color: #636464;
+}
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
