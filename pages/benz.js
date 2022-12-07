@@ -1,9 +1,5 @@
-import logo from "../public/benz.jpg";
+
 import React from "react";
-import Button from "@mui/material/Button";
-import Checkbox from '@mui/material/Checkbox';
-import FormGroup from '@mui/material/FormGroup';
-import FormControlLabel from '@mui/material/FormControlLabel';
 import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
 import FormatAlignLeftOutlinedIcon from '@mui/icons-material/FormatAlignLeftOutlined';
 import StoreOutlinedIcon from '@mui/icons-material/StoreOutlined';
@@ -13,73 +9,84 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import ChatIcon from '@mui/icons-material/Chat';
-import Paper from '@mui/material/Paper';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import StarIcon from '@mui/icons-material/Star';
 import PersonIcon from '@mui/icons-material/Person';
 import TimeToLeaveIcon from '@mui/icons-material/TimeToLeave';
+import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import AirportShuttleRoundedIcon from '@mui/icons-material/AirportShuttleRounded';
+// import button from '../styles/button.css';
 
 export default function Benz() {
     return (
         <div>
-            <div className="Boxbenz">
-                <div className="flex-container-row-5" style={{ alignItems: "center", justifyContent: "space-between" }} >
 
-                    <div className="flex-items-3" >
+            {/* component header 1  */}
+
+            <div className="flex-container-row-5 Boxbenz"  >
+                <div className="flex-container-row"  >
+
+                    <div className="flex-container-row-5" style={{ alignItems: "center" }}>
                         <img style={{ height: "80px" }} src={"benz.jpg"} />
-                        <div style={{ display: "flex", alignItems: "center" }}>
-                            <span style={{ color: "white" }}>Mercedes-Benz.</span>
-                        </div>
-
+                        <span style={{ color: "white" }}>Mercedes-Benz.</span>
                     </div>
 
-                    <div className="flex-container-row-5" style={{ alignItems: "center" }} >
-                        <span className="flex-items-3" style={{ padding: "0px 30px" }}>
+                    {/* component header 1  ส่วนท้าย */}
+
+                    <div className="flex-container-row-5" style={{ alignItems: "center" }}>
+                        <span style={{ padding: "0px 30px", color: "rgb(197, 197, 197)" }}>
                             Copyrighted 2022. Mercedes-Benz (Thailand) Limited
                             ขอสงวนสิทธิ์ทั้งหมด (ผู้จัดทำ)
                         </span>
+
+                        {/* component language */}
                         <div style={{ paddingRight: "10px" }}>
-                            <Paper
-                                component="form"
-                                sx={{ p: "2px 4px", display: "flex", alignItems: "center", backgroundColor: "#383838" }}>
-                                <span style={{ color: "white" }}>EN</span>
-                            </Paper>
+                            <div className="bt-language" style={{ padding: "3px 5px" }}>
+                                <span>EN</span>
+                            </div>
                         </div>
+
                         <div style={{ paddingRight: "30px" }}>
-                            <Paper
-                                component="form"
-                                sx={{ p: "2px 4px", display: "flex", alignItems: "center", backgroundColor: "#383838" }}>
-                                <span style={{ color: "white" }}>TH</span>
-                            </Paper>
+                            <div className="bt-language" style={{ padding: "3px 5px" }}>
+                                <span>TH</span>
+                            </div>
                         </div>
+
+                        {/* ส่วนช่องค้นหา */}
                         <div style={{ paddingRight: "30px" }}>
-                            <Paper
-                                component="form"
-                                sx={{ p: "2px 4px", display: "flex", alignItems: "center", backgroundColor: "#383838" }}>
-                                <div class="search" style={{ padding: "5px 0px" }}>
-                                    <div className="fcC-7">
-                                        <input type="text" class="searchTerm" placeholder="ค้นหา" style={{ backgroundColor: "#383838", borderWidth: "0px" }} />
-                                    </div>
-                                    <IconButton type="button" sx={{ p: "10px", color: "white" }} aria-label="search">
+
+                            <div className="flex-container-row bt-search" style={{ padding: "0px 0px" }}>
+                                <div style={{ width: "200px", padding: "5px 20px" }}>
+                                    {/* <span>ค้นหา </span> */}
+                                    <input type="text" class="searchTerm" placeholder="ค้นหา" style={{ backgroundColor: "#383838", borderWidth: "0px", color: "white" }} />
+                                </div>
+                                <div className="fcC-8" style={{ padding: "1px 6px" }}>
+                                    <IconButton type="button" style={{ color: "white" }} aria-label="search">
                                         <SearchIcon />
                                     </IconButton>
                                 </div>
-                            </Paper>
-                        </div>
-                        <div className="flex-items-4">
-                            <a href="#about">< StarIcon /></a>
+                            </div>
 
                         </div>
+
+                        {/* star & Us */}
                         <div className="flex-items-4">
-                            <a href="#about">
-                                <PersonIcon />
-                            </a>
+                            <a href="#about">< StarIcon /></a>
                         </div>
+
+                        <div className="flex-items-4">
+                            <a href="#about"><PersonIcon /></a>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
+
             <div style={{ paddingTop: "2px" }}></div>
+
+            {/* component header 2  ส่วนท้าย */}
             <div className="Boxbenz-2">
                 <div className="flex-container-row-3">
                     <div className="flex-items-4">
@@ -92,31 +99,38 @@ export default function Benz() {
                     <a href="#about" className="flex-items-4">แบรนด์ของเรา</a>
                 </div>
             </div>
+
             <div style={{ paddingTop: "2px" }}></div>
+
+            {/* component header 3  ส่วนท้าย */}
             <div className="Boxbenz-3">
-                <div className="flex-container-center">
+                <div className="flex-container-center" style={{color:"white"}}>
                     รับข้อเสนอที่ดีที่สุดผ่านโชว์รูมออนไลน์ที่นี่
                 </div>
             </div>
+
+            {/* component โปสเตอร์ ส่วนท้าย */}
+            {/* className="bg-image" คือรูปพื้นหลัง */}
             <div className="bg-image" style={{ height: "720px" }}>
                 <div className="flex-container-Column">
                     <div style={{ paddingTop: "250px", paddingLeft: "100px" }}>
                         <div className="titer-text" style={{ color: "white" }}>Motor Expo 2022</div>
                         <div className="titer-text-2" style={{ color: "white" }}>VISION OF THE BEYOND.</div>
                         <div style={{ paddingTop: "32px" }}>
-                            <Button variant="contained" style={{ height: "50px", borderRadius: "2px" }}>
-                                <h3>ข้อมูลเพิ่มเติม</h3>
-                            </Button>
+                            <button class="button" style={{ height: "50px", width: "40%" }}>ข้อมูลเพิ่มเติม</button>
+
                         </div>
                     </div>
                 </div>
             </div>
+
             <div className="titer-text-3" style={{ paddingTop: "80px", paddingLeft: "100px", paddingBottom: "0px" }}>
                 <p>ข้อมูลล่าสุด</p>
             </div>
+
             {/* ///////////////////////////////////////////////////////////////////////////////////// */}
             <div className="flex-container-row-3" style={{ paddingLeft: "150px" }}>
-
+                {/* Card Items ส่วนโฆษณารถยนต์ */}
                 <div style={{ paddingRight: "30px" }}>
                     <div className="flex-container-Column2">
 
@@ -126,18 +140,20 @@ export default function Benz() {
                             <div className="comtainer-wrap">
                                 <h2>Every action counts.</h2>
                             </div>
+
                             <div className="comtainer-wrap">
                                 <p>Join our journey to a fully electric future. Our co-promotion with Avatar: The Way of Water messaging focuses on responsibility to our planet.
                                 </p>
                             </div>
                         </div>
+
                         <div className="bt-car">
-                            <Button variant="contained" style={{ width: "85%", height: "50px", borderRadius: "2px" }}>
-                                <h3>ข้อมูลเพิ่มเติม</h3>
-                            </Button>
+                            <button class="button" style={{ height: "50px", width: "85%" }}>ข้อมูลเพิ่มเติม</button>
                         </div>
                     </div>
                 </div>
+
+
                 <div style={{ paddingRight: "30px" }}>
                     <div className="flex-container-Column2">
                         <div className="bg-image-s2" ></div>
@@ -151,9 +167,7 @@ export default function Benz() {
                             </div>
                         </div>
                         <div className="bt-car">
-                            <Button variant="contained" style={{ width: "85%", height: "50px", borderRadius: "2px" }}>
-                                <h3>ข้อมูลเพิ่มเติม</h3>
-                            </Button>
+                            <button class="button" style={{ height: "50px", width: "85%" }}>ข้อมูลเพิ่มเติม</button>
                         </div>
                     </div>
                 </div>
@@ -171,9 +185,7 @@ export default function Benz() {
                             </div>
                         </div>
                         <div className="bt-car">
-                            <Button variant="contained" style={{ width: "85%", height: "50px", borderRadius: "2px" }}>
-                                <h3>ข้อมูลเพิ่มเติม</h3>
-                            </Button>
+                            <button class="button" style={{ height: "50px", width: "85%" }}>ข้อมูลเพิ่มเติม</button>
                         </div>
                     </div>
                 </div>
@@ -191,51 +203,73 @@ export default function Benz() {
                             </div>
                         </div>
                         <div className="bt-car">
-                            <Button variant="contained" style={{ width: "85%", height: "50px", borderRadius: "2px" }}>
-                                <h3>ข้อมูลเพิ่มเติม</h3>
-                            </Button>
+                            <button class="button" style={{ height: "50px", width: "85%" }}>ข้อมูลเพิ่มเติม</button>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div className="titer-text-3" style={{ paddingTop: "80px", paddingLeft: "100px" }}>
                 <p>รถยนต์ Mercedes-Benz</p>
             </div>
 
+            {/* component ปุ่มหมวดหมู่รถ */}
             <div className="flex-container-row-3" style={{ padding: "30px 90px" }}>
-                <Button variant="contained" className="bt-catagry">
+                <div className="bt-catagry">
                     <h3>รถยนต์ทุกรุ่น</h3>
-                </Button>
-                <Button variant="contained" className="bt-catagry">
+                </div>
+                <div className="bt-catagry">
                     <h3>Mercedes-EQ</h3>
-                </Button>
-                <Button variant="contained" className="bt-catagry">
+                </div>
+                <div className="bt-catagry">
                     <h3>Mercedes-AMG</h3>
-                </Button>
-                <Button variant="contained" className="bt-catagry">
+                </div>
+                <div className="bt-catagry">
                     <h3>รุ่นใหม่ล่าสุด</h3>
-                </Button>
-
+                </div>
             </div>
             <div className="flex-container-row-5" >
 
-                <div className="flex-container-Column fcC-6" style={{ paddingTop: "10px", paddingLeft: "100px", paddingBottom: "30px", paddingRight: "50px", width: "45%" }}>
-                    <h2>ระบบเชื้อเพลิง</h2>
-                    <FormGroup>
-                        <FormControlLabel control={<Checkbox defaultChecked />} label="รถยนต์ไฟฟ้า" />
-                        <FormControlLabel control={<Checkbox defaultChecked />} label="รถยนต์ไฮบริด" />
-                    </FormGroup>
-                    <h2>ประเภทของรถยนต์</h2>
-                    <button className="bt-catagry-2 ">ซาลูน</button>
+                {/* component ฝั่งซ้ายเลือกประเภท */}
+                <div className="flex-container-Column fcC-6" style={{ paddingTop: "0px", paddingLeft: "100px", paddingBottom: "30px", paddingRight: "50px", width: "45%" }}>
+                    <h3>ระบบเชื้อเพลิง</h3>
+
+                    <label class="container">
+                        <span style={{fontSize:"17px"}}>รถยนต์ไฟฟ้า</span>
+                        <input type="checkbox" />
+                            <span class="checkmark"></span>
+                    </label>
+                    
+                    <label class="container">
+                        <span style={{fontSize:"17px"}}>รถยนต์ไฮบริด</span>
+                        <input type="checkbox" />
+                            <span class="checkmark"></span>
+                    </label>
+                   
+                    <h3>ประเภทของรถยนต์</h3>
+                    <div className="flex-container-row-3">
+                        < LocalShippingIcon />
+                        <p style={{padding:"0px 10px"}}>ซาลูน</p>
+                    </div>
+                    <div className="flex-container-row-3">
+                        < AirportShuttleRoundedIcon />
+                        <p style={{padding:"0px 10px"}}>เอสยูวี</p>
+                    </div>
+                    <div style={{width:"30%" ,borderBottom: "2px solid rgb(233, 232, 232)"}}></div>
+                    <div style={{paddingTop:"20px"}}>ดูทั้งหมด</div>
+                    
                 </div>
+
 
                 <div className="flex-container-row-3" style={{ justifyContent: "flex-start" }}>
 
+                    {/* Car Items */}
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">EQS Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 7,900,000 บาท</div>
                         <div className="bg-image-s5 " ></div>
                     </div>
+
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">A-Class Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 1,990,000.00 บาท</div>
@@ -246,26 +280,31 @@ export default function Benz() {
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 5,900,000</div>
                         <div className="bg-image-s7 " ></div>
                     </div>
+
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">A-Class Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 1,990,000.00 บาท</div>
                         <div className="bg-image-s6 " ></div>
                     </div>
+
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">A-Class Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 5,900,000</div>
                         <div className="bg-image-s7 " ></div>
                     </div>
+
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">EQS Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 7,900,000 บาท</div>
                         <div className="bg-image-s5 " ></div>
                     </div>
+
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">A-Class Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 1,990,000.00 บาท</div>
                         <div className="bg-image-s6 " ></div>
                     </div>
+
                     <div className="flex-container-Column3 centerLine" style={{ margin: "20px 30px" }}>
                         <span className="set-text-car">A-Class Saloon</span>
                         <div className="set-text-car-2">ราคา (รวมภาษีมูลค่าเพิ่ม) เริ่มต้นที่ 5,900,000</div>
@@ -274,24 +313,37 @@ export default function Benz() {
                 </div>
             </div>
 
+            {/* หมายเหตุ */}
             <div style={{ paddingLeft: "100px", paddingRight: "100px" }}>
                 <h2 >หมายเหตุ</h2>
                 <div className="lines"></div>
-                <p className="set-text-car-3">ราคาทั้งหมดที่แสดงอยู่คือราคาแนะนำข้างต้นรวมภาษีมูลค่าเพิ่มร้อยละเจ็ด บริษัท เมอร์เซเดส-เบนซ์ (ประเทศไทย) จำกัด ขอสงวนสิทธิ์ในการเปลี่ยนแปลงราคาแนะนำและอุปกรณ์ โดยมิต้องแจ้งให้ทราบล่วงหน้า  ภาพประกอบอาจแสดงอุปกรณ์เสริมและรายการของอุปกรณ์เสริมซึ่งไม่ได้เป็นส่วนหนึ่งของข้อกำหนดมาตรฐาน กับประเภทของรุ่นรถยนต์ ลักษณะ อุปกรณ์เสริม และ /หรือสีที่มีให้ในแต่ละประเทศ รถยนต์บางรุ่นอาจจะไม่มีประเภท ลักษณะ อุปกรณ์เสริม และ /หรือสีที่แสดงในประเทศของคุณหรืออาจมีรายละเอียดเฉพาะที่แตกต่างกัน นอกจากนี้รถยนต์บางรุ่น ลักษณะ อุปกรณ์เสริม และ /หรือสีอาจมีใช้ร่วมกับรุ่นอื่นเท่านั้น สำหรับข้อมูลที่เป็นปัจจุบันและเฉพาะเจาะจงมากขึ้นเกี่ยวกับประเภทของรุ่น ลักษณะ อุปกรณ์เสริม และ /หรือสีที่มีในประเทศของคุณและการกำหนดราคานั้น สามารถติดต่อผู้จำหน่ายเมอร์เซเดส-เบนซ์อย่างเป็นทางการใกล้บ้านคุณ</p>
+                <p className="set-text-car-3">ราคาทั้งหมดที่แสดงอยู่คือราคาแนะนำข้างต้นรวมภาษีมูลค่าเพิ่มร้อยละเจ็ด บริษัท
+                    เมอร์เซเดส-เบนซ์ (ประเทศไทย) จำกัด ขอสงวนสิทธิ์ในการเปลี่ยนแปลงราคาแนะนำและอุปกรณ์ โดยมิต้องแจ้งให้ทราบล่วงหน้า
+                    ภาพประกอบอาจแสดงอุปกรณ์เสริมและรายการของอุปกรณ์เสริมซึ่งไม่ได้เป็นส่วนหนึ่งของข้อกำหนดมาตรฐาน กับประเภทของรุ่นรถยนต์ ลักษณะ อุปกรณ์เสริม และ
+                    /หรือสีที่มีให้ในแต่ละประเทศ รถยนต์บางรุ่นอาจจะไม่มีประเภท ลักษณะ อุปกรณ์เสริม และ /หรือสีที่แสดงในประเทศของคุณหรืออาจมีรายละเอียดเฉพาะที่แตกต่างกัน
+                    นอกจากนี้รถยนต์บางรุ่น ลักษณะ อุปกรณ์เสริม และ /หรือสีอาจมีใช้ร่วมกับรุ่นอื่นเท่านั้น สำหรับข้อมูลที่เป็นปัจจุบันและเฉพาะเจาะจงมากขึ้นเกี่ยวกับประเภทของรุ่น
+                    ลักษณะ อุปกรณ์เสริม และ /หรือสีที่มีในประเทศของคุณและการกำหนดราคานั้น สามารถติดต่อผู้จำหน่ายเมอร์เซเดส-เบนซ์อย่างเป็นทางการใกล้บ้านคุณ</p>
             </div>
 
             <div className="flex-container-row " style={{ padding: "60px 100px" }}>
+                {/* component  */}
                 <div className="boxstyle6" >
                     <div className="flex-container-row-4" >
+
+                        {/* Icon of search */}
                         <div style={{ padding: "0px 10px" }}>
                             < LocalGroceryStoreOutlinedIcon />
                         </div>
+
+
                         <div className="flex-container-Column5" style={{ paddingRight: "90px" }}>
                             <span className="text-boxstyle6">จองออนไลน์</span>
                             <span>ค้นหา Mercedes คันใหม่ของคุณ</span>
                         </div>
+
                     </div>
                 </div>
+
                 <div className="boxstyle6" >
                     <div className="flex-container-row-4" >
                         <div style={{ padding: "0px 10px" }}>
@@ -327,6 +379,7 @@ export default function Benz() {
                 </div>
             </div>
 
+            {/* ปุ่มเลื่อนขึ้นด้านบน */}
             <div className="Boxbenz-3" style={{ padding: "90px" }}>
                 <div className="flex-container-center-2" >
                     <div><  KeyboardArrowUpOutlinedIcon /></div>
@@ -334,6 +387,7 @@ export default function Benz() {
                 </div>
             </div>
 
+            {/* component  บริการต่างๆ*/}
             <div className="Boxbenz-5" style={{ padding: "50px" }}>
                 <div className="flex-container-row-4"  >
                     <div></div>
@@ -365,6 +419,7 @@ export default function Benz() {
                         <span className="flex-items-5">เซมิคอนดักเตอร์</span>
 
                     </div>
+
                     <div className="flex-container-Column4">
 
                         <h2 style={{ color: "white" }}>เทคโนโลยี</h2>
@@ -374,6 +429,7 @@ export default function Benz() {
                         <span className="flex-items-5">คำถามที่พบบ่อยเกี่ยวกับ Mercedes me</span>
 
                     </div>
+
                     <div className="flex-container-Column4">
 
                         <h2 style={{ color: "white" }}>รุ่นรถยอดนิยม</h2>
@@ -382,6 +438,7 @@ export default function Benz() {
                         <span className="flex-items-5">เกี่ยวกับ รุ่น Mercedes-Benz AMG me</span>
 
                     </div>
+
                     <div className="flex-container-Column4">
 
                         <h2 style={{ color: "white" }}>เกี่ยวกับเรา</h2>
@@ -402,6 +459,8 @@ export default function Benz() {
                     <div className="flex-items-4">การคุ้มครองข้อมูล</div>
                     <div className="flex-items-4">หมายเหตุทางกฎหมาย</div>
                 </div>
+
+                {/* ช่องทางติกตาม social */}
                 <div className="flex-container-row-3">
                     <div className="flex-items-4">
                         <a href="#about"><FacebookIcon /></a>
