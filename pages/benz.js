@@ -234,6 +234,7 @@ export default function Benz() {
                 <div className="flex-container-Column fcC-6" style={{ paddingTop: "0px", paddingLeft: "100px", paddingBottom: "30px", paddingRight: "50px", width: "45%" }}>
                     <h3>ระบบเชื้อเพลิง</h3>
 
+                    {/* checkbox */}
                     <label class="container">
                         <span style={{fontSize:"17px"}}>รถยนต์ไฟฟ้า</span>
                         <input type="checkbox" />
@@ -245,7 +246,8 @@ export default function Benz() {
                         <input type="checkbox" />
                             <span class="checkmark"></span>
                     </label>
-                   
+                    
+                   {/* ประเภทรถ */}
                     <h3>ประเภทของรถยนต์</h3>
                     <div className="flex-container-row-3">
                         < LocalShippingIcon />
