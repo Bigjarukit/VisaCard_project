@@ -104,7 +104,7 @@ export default function Benz() {
 
             {/* component header 3  ส่วนท้าย */}
             <div className="Boxbenz-3">
-                <div className="flex-container-center" style={{color:"white"}}>
+                <div className="flex-container-center" style={{ color: "white" }}>
                     รับข้อเสนอที่ดีที่สุดผ่านโชว์รูมออนไลน์ที่นี่
                 </div>
             </div>
@@ -124,7 +124,7 @@ export default function Benz() {
                 </div>
             </div>
 
-            <div className="titer-text-3" style={{ paddingTop: "80px", paddingLeft: "100px", paddingBottom: "0px" }}>
+            <div className="titer-text-3" style={{ paddingTop: "80px", paddingLeft: "100px", paddingBottom: "30px" }}>
                 <p>ข้อมูลล่าสุด</p>
             </div>
 
@@ -236,30 +236,30 @@ export default function Benz() {
 
                     {/* checkbox */}
                     <label class="container">
-                        <span style={{fontSize:"17px"}}>รถยนต์ไฟฟ้า</span>
+                        <span style={{ fontSize: "17px" }}>รถยนต์ไฟฟ้า</span>
                         <input type="checkbox" />
-                            <span class="checkmark"></span>
+                        <span class="checkmark"></span>
                     </label>
-                    
+
                     <label class="container">
-                        <span style={{fontSize:"17px"}}>รถยนต์ไฮบริด</span>
+                        <span style={{ fontSize: "17px" }}>รถยนต์ไฮบริด</span>
                         <input type="checkbox" />
-                            <span class="checkmark"></span>
+                        <span class="checkmark"></span>
                     </label>
-                    
-                   {/* ประเภทรถ */}
+
+                    {/* ประเภทรถ */}
                     <h3>ประเภทของรถยนต์</h3>
                     <div className="flex-container-row-3">
                         < LocalShippingIcon />
-                        <p style={{padding:"0px 10px"}}>ซาลูน</p>
+                        <p style={{ padding: "0px 10px" }}>ซาลูน</p>
                     </div>
                     <div className="flex-container-row-3">
                         < AirportShuttleRoundedIcon />
-                        <p style={{padding:"0px 10px"}}>เอสยูวี</p>
+                        <p style={{ padding: "0px 10px" }}>เอสยูวี</p>
                     </div>
-                    <div style={{width:"30%" ,borderBottom: "2px solid rgb(233, 232, 232)"}}></div>
-                    <div style={{paddingTop:"20px"}}>ดูทั้งหมด</div>
-                    
+                    <div style={{ width: "30%", borderBottom: "2px solid rgb(233, 232, 232)" }}></div>
+                    <div style={{ paddingTop: "20px" }}>ดูทั้งหมด</div>
+
                 </div>
 
 
@@ -392,7 +392,7 @@ export default function Benz() {
             {/* component  บริการต่างๆ*/}
             <div className="Boxbenz-5" style={{ padding: "50px" }}>
                 <div className="flex-container-row-4"  >
-                    <div></div>
+
                     <div className="flex-container-Column4">
                         <h2 style={{ color: "white" }}>ซื้อรถยนต์</h2>
                         <span className="flex-items-5">ค้นหารถยนต์ใหม่</span>
@@ -478,6 +478,7 @@ export default function Benz() {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }

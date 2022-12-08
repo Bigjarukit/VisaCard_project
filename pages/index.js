@@ -77,7 +77,7 @@ export default function Home() {
                   Mercedes Benz
                   </Typography>
                   <Typography variant="body2" color="text.secondary">
-                  รถยนต์ Mercedes-Benz
+                   Mercedes-Benz by CSS.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -85,6 +85,28 @@ export default function Home() {
           </a>
         </div>
 
+        <div className='flex-items-1'>
+          <a href='/benzTW'>
+            <Card sx={{ width: "310px" }}>
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="140"
+                  image="benz.jpg"
+                  alt="green iguana"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h6" component="div">
+                  Mercedes Benz
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                   Mercedes-Benz by Tailwind CSS.
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </a>
+        </div>        
       </div>
     </div>
   )
