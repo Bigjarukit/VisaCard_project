@@ -77,14 +77,17 @@ export default function BenzTW() {
             {/* component header 2  ส่วนท้าย */}
             <div class="flex flex-row w-full px-28  h-16 bg-black">
                 <div class="flex w-full  items-center">
-                    <div class="pr-6 text-zinc-300">
-                        <a href="#about">< TimeToLeaveIcon /></a>
+                    <div class="flex flex-row ">
+                        <div class="pr-6 text-zinc-300 pr-6 hover:text-white hover:cursor-pointer">
+                            < TimeToLeaveIcon />
+                            <span class="  pl-3 text-inherit ">รุ่นรถยนต์</span>
+                           
+                        </div>
                     </div>
-                    <a href="#about" class="pr-6 text-zinc-300">รุ่นรถยนต์</a>
-                    <a href="#about" class="pr-6 text-zinc-300">การซื้อ</a>
-                    <a href="#about" class="pr-6 text-zinc-300">บริการทางการเงิน</a>
-                    <a href="#about" class="pr-6 text-zinc-300">บริการหลังการขายและอะไหล่</a>
-                    <a href="#about" class="pr-6 text-zinc-300">แบรนด์ของเรา</a>
+                    <a href="#about" class="pr-6 text-zinc-300 hover:text-white">การซื้อ</a>
+                    <a href="#about" class="pr-6 text-zinc-300 hover:text-white">บริการทางการเงิน</a>
+                    <a href="#about" class="pr-6 text-zinc-300 hover:text-white" >บริการหลังการขายและอะไหล่</a>
+                    <a href="#about" class="pr-6 text-zinc-300 hover:text-white">แบรนด์ของเรา</a>
                 </div>
             </div>
 
@@ -205,7 +208,7 @@ export default function BenzTW() {
             </div>
 
             {/* component ปุ่มหมวดหมู่รถ */}
-            <div class="flex flex-row flex-wrap items-center pl-36">
+            <div class="flex flex-row flex-wrap items-center pl-28">
                 <div class="flex justify-center py-4 px-6 w-fit bg-white text-black  rounded-sm hover:bg-zinc-400 active:bg-zinc-600 box-shadow1 border border-zinc-200" >
                     <h3>รถยนต์ทุกรุ่น</h3>
                 </div>
